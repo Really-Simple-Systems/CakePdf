@@ -4,8 +4,12 @@
     "description": "CakePHP plugin for creating and/or rendering Pdfs, several Pdf engines supported.",
     "homepage": "http://github.com/friendsofcake/CakePdf",
     "license": "MIT",
+    "repositories": [{
+        "type": "vcs",
+        "url": "git@github.com:really-simple-systems/cakephp"
+    }],
     "require": {
-        "cakephp/cakephp": "^3.5"
+        "cakephp/cakephp": "dev-spotler-cake"
     },
     "require-dev": {
         "cakephp/chronos": "^1.1",
