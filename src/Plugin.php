@@ -12,19 +12,19 @@ class Plugin extends BasePlugin
      *
      * @var bool
      */
-    protected bool $routesEnabled = false;
+    protected $routesEnabled = false;
 
     /**
      * Enable middleware
      *
      * @var bool
      */
-    protected bool $middlewareEnabled = false;
+    protected $middlewareEnabled = false;
 
     /**
      * Console middleware
      *
      * @var bool
      */
-    protected bool $consoleEnabled = false;
+    protected $consoleEnabled = false;
 }
